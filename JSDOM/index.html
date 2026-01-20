@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!----
+    <button onclick="userClick()">Click Me</button>
+    <div onclick="devClick()">Dev Click</div>
+
+    ชื่อ <input type="text" name="fname" value="John"><br><br>
+    งานอดิเรก:<br>
+    <input type="checkbox" name="hobby" value="football"> Football<br>
+    <input type="checkbox" name="hobby" value="basketball"> Basketball<br>
+    <input type="checkbox" name="hobby" value="tennis"> Tennis<br>
+   --->
+   
+<!---
+    เพศ:
+    <input type="radio" name ="gender" value="male" onchange="onchangeGend()"> ชาย
+    <input type="radio" name ="gender" value="female" onchange="onchangeGend()"> หญิง
+    <button onclick="userClick()">Submit</button>
+    <div onclick="devClick()">Dev Click</div>
+--->
+<!--
+</html>
+    <script>
+        function userClick() {
+
+            alert("User clicked the button!");
+        }
+        function devClick() {
+
+            alert("Developer clicked the div!");
+
+        }
+-->    
+    
+    <script> 
+        function onchangeGend() {
+       
+       
+       
+            //เลือก gender ทุก input ออกมา
+        let gendersinputx = document.querySelectorAlL ('input[name="gender"]');
+        //เช็ค ตัวไหน มี check อยู่ ให้เอา Value มาแสดง
+            for (let i=0; i<gendersinputx.length; i++) {
+                if (gendersinputx[i].checked){
+                    console.log("เพศที่เลือก"+ genderInputs[i].value);
+                }
+            }
+    }
