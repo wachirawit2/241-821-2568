@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #cad8d398;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,6 +87,24 @@ textarea {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+.message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.danger {
+    background-color: #f8d7da;
+    color: #721c24;
 }
 
 .button {
